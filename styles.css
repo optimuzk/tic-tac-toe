@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    height: 50px;
+}
+
+.gameSpace{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+    margin-top: 100px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(85, 85, 85);
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-size: 90px;
+    color: aliceblue;
+}
+.square:hover{
+    background-color: rgb(105, 105, 105);
+}
+
